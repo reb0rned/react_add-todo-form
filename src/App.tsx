@@ -123,7 +123,7 @@ export const App = () => {
         </button>
       </form>
 
-    <TodoList preparedTodos={visibleTodos} />
+    <TodoList todos={visibleTodos} />
     </div>
   );
 };
